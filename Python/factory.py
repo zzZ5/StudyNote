@@ -35,5 +35,8 @@ eng = get_localizer(language="English")
 ch = get_localizer(language="Chinese")
 
 print(eng.localize('dog'), ch.localize('dog'))
+# 输出结果: dog 狗
 print(eng.localize('cat'), ch.localize('cat'))
+# 输出结果: cat 猫
 print(eng.localize('pig'), ch.localize('pig'))
+# 输出结果: pig pig
